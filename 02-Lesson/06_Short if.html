@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        unary operator  - !true
+        binary operator - (x > y)
+        trinary operator - works of 3 variables. 
+
+        */
+
+        // --------example 01------------
+
+        var res, num1 = 1, num2 = 2;
+
+        if(num1 > num2)
+            res = "Num1 is max";
+        else 
+            res = "Num2 is max";
+
+        console.log(res);
+
+        // trinary operator: short if:
+        res = (num1 > num2)? "Num1 is max": "Num2 is max";
+
+        // --------example 02------------
+
+        var z = Number(prompt("Enter a number: "));
+        console.log((z%2==0)?"even":"odd");
+
+        
+    </script>
+</body>
+</html>
